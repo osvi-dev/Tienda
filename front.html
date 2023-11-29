@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tienda en Línea</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .navbar {
+            background-color: #0066cc; /* Color de fondo de la barra */
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+        }
+        .navbar img {
+            width: 50px; /* Ajusta el tamaño del logo según necesidades */
+            height: auto;
+            margin-right: 15px;
+        }
+        .navbar h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        header {
+            padding: 20px;
+            text-align: center;
+            background-color: #333; /* Mantener este color o cambiarlo si se desea */
+            color: white;
+        }
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            width: 80%;
+        }
+        th, td {
+            padding: 8px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        thead {
+            background-color: #007bff;
+            color: white;
+        }
+        tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Sombra para efecto elevado */
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center; /* Centrado para hacerlo más legible */
+}
+
+thead {
+    background-color: #007bff;
+    color: white;
+}
+
+tbody tr:hover {
+    background-color: #ddd; /* Efecto hover para las filas */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+h1 {
+    color: #333;
+    margin-top: 50px; /* Espaciado adicional antes de las secciones */
+}
+.table-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.table-container {
+    width: 45%; /* Ajusta esto según el ancho deseado para cada tabla */
+    margin: 0 2%; /* Espaciado entre las tablas */
+    /* Aplica aquí estilos adicionales si es necesario */
+}
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <img src="cha.jpg" alt="Logo de la Tienda"> <!-- Añade aquí la ruta de tu logo -->
+        <h2>Mi tienda</h2>
+    </div>
+
+    <!-- El resto del contenido de tu página -->
+    
+    <header>
+        <!-- Otros detalles de cabecera si se requiere -->
+    </header>
+
+    <div class="table-wrapper">
+        <div class="table-container">
+            <h1 style="text-align: center;">Inventario de la Tienda</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID Producto</th>
+                        <th>Descripción</th>
+                        <th>Mínimo</th>
+                        <th>Máximo</th>
+                        <th>Stock Actual</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    
+        <div class="table-container">
+            <h1 style="text-align: center;">Registro de Compras</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID Compra</th>
+                        <th>ID Producto</th>
+                        <th>Cantidad Comprada</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+
+    <div class="table-wrapper">
+        <div class="table-container">
+            <h1 style="text-align: center;">Proveedores</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID </th>
+                        <th>Nombre</th>
+                        <th>Dirección</th>
+                        <th>Telefono</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    
+        <div class="table-container">
+            <h1 style="text-align: center;">Salidas</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Fecha</th>
+                        <th>Hora</th>
+                        <th>ID Producto</th>
+                        <th>Cantidad</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
